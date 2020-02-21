@@ -82,8 +82,7 @@ Jadi, di kolom ke-13 yang berisi *"Region"* kita akan mencari *region* dengan *s
 *"Pasti ini untuk nge-print hasilnya, kan?"*  
   
 Benar sekali, Whits! Dengan menuliskan *file* (*Sample-Superstore.csv*), kita memberikan perintah kepada *script* Awk untuk mengakses *file* tersebut.  
-  
-  
+
 Penggunaan 
 ```bash
 sort -g -k 1
@@ -95,10 +94,14 @@ digunakan untuk mengurutkan *output* dari *script* yang kita jalankan.
 Nah, pasti bingung, kan? Jadi, -g -k -1 merupakan *parameter* dari *sorting*-nya sendiri. Nah, kata Anwar dalam jawabannya di [askubuntu.com](https://askubuntu.com/a/840802),
 > -g berarti general-numeric-sort. Artinya, mengurutkan secara numerikal, mengkonversi *prefix* dari tiap baris menjadi *long double-precision floating point number*
 
-Sementara **-k -1** artinya,
->
+Sementara **-k -1** artinya mengurutkan berdasarkan *value* yang terdapat di kolom pertama *output*
+
+Lalu, bagaimana dengan
+```bash
+grep -o -P '(?<=[0-9.] ).*'
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5OTU2MDE1MywtMTA3MzU2NTkwOSw1MT
+eyJoaXN0b3J5IjpbLTM0OTQ2NzExNSwtMTA3MzU2NTkwOSw1MT
 Q2NzYyLDE4NDkwNDU5NDUsMjA5NDg1MzU5OCwxNzM2NzgwNjAy
 XX0=
 -->
