@@ -122,10 +122,19 @@ Opsi -n setelah *head* menandakan bahwa *head* akan mencetak sejumlah *line(s)*.
 1B menggunakan *script* Awk yang hampir mirip dengan **1A**. Bedanya, Whits diminta untuk mencetak 2 negara bagian (*state*) dengan *profit* paling sedikit berdasarkan wilayah bagian (*region*) yang di dapat dari *output* **1A**.
 
 ```bash
-
+B=$(awk -F '	' '{
+if ($11 != "State" && $13 == a)
+	column[$11] += $21	
+}
+END{
+	for (x in column){
+		print column[x] " " x}
+}' a="$A" Sample-Superstore.tsv | sort -g -k 1 | grep -o -P '(?<=[0-9.] ).*' | head -n 2)
 ```
+Mirip, kan?
+Karena *output* dari **1A** telah dimasukkan ke dalam variabel A, maka kita butuhuntuk menggunakannya kembali 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTMwMjIxMDYsLTEwNzM1NjU5MDksNT
+eyJoaXN0b3J5IjpbLTE0NTI5NTcwODksLTEwNzM1NjU5MDksNT
 E0Njc2MiwxODQ5MDQ1OTQ1LDIwOTQ4NTM1OTgsMTczNjc4MDYw
 Ml19
 -->
