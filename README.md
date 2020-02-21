@@ -119,9 +119,13 @@ Opsi -n setelah *head* menandakan bahwa *head* akan mencetak sejumlah *line(s)*.
 <br/>  
   
 **1B**
-1B menggunakan *script* Awk yang hampir mirip dengan **1A**. Bedanya, Whits diminta untuk mencetak 2 negara bagian (
+1B menggunakan *script* Awk yang hampir mirip dengan **1A**. Bedanya, Whits diminta untuk mencetak 2 negara bagian (*state*) dengan *profit* paling sedikit berdasarkan wilayah bagian (*region*) yang di dapat dari *output* **1A**.
+
+```bash
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzYwOTQ3MTYsLTEwNzM1NjU5MDksNT
+eyJoaXN0b3J5IjpbLTEyMTMwMjIxMDYsLTEwNzM1NjU5MDksNT
 E0Njc2MiwxODQ5MDQ1OTQ1LDIwOTQ4NTM1OTgsMTczNjc4MDYw
 Ml19
 -->
