@@ -241,7 +241,7 @@ setelah itu isinya dimasukkan ke txt lewat echo yang paling bawah
 
 
 #Soal Nomer 3 
-1 tahun telah berlalu sejak pencampakan hati Kusuma. Akankah sang pujaan hati
+```1 tahun telah berlalu sejak pencampakan hati Kusuma. Akankah sang pujaan hati
 kembali ke naungan Kusuma? Memang tiada maaf bagi Elen. Tapi apa daya hati yang
 sudah hancur, Kusuma masih terguncang akan sikap Elen. Melihat kesedihan Kusuma,
 kalian mencoba menghibur Kusuma dengan mengirimkan gambar kucing. [a] Maka dari
@@ -271,6 +271,7 @@ Setelah tidak ada gambar di current directory, maka lakukan backup seluruh log m
 ekstensi ".log.bak". Hint : Gunakan wget.log untuk membuat location.log yang isinya
 merupakan hasil dari grep "Location".
 *Gunakan Bash, Awk dan Crontab
+```
 
 ##3a Nah Pertama-tama harus membuat bash terlebih dahulu untuk memasukkan gambar dari link "https://loremflickr.com/320/240/cat"
 ```
