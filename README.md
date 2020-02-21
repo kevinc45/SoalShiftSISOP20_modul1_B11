@@ -70,10 +70,10 @@ if ($13 != "Region")
 Bisa dong, Whits! Nih, kata Sasikala di situs [The Geek Stuff](https://www.thegeekstuff.com/2010/03/awk-arrays-explained-with-5-practical-examples/),
 >Awk mendukung *associative array*. *Associative arrays* sama seperti *array* tradisional namun berisikan *strings* sebagai *index* alih-alih menggunakan angka. 
 
-Jadi, di kolom 13 yang berisi *"Region"* kita akan mencari *region* dengan *string* yang berbeda. Dalam hal ini, ada *Central*, *West*, *East*, dan *South*.  
+Jadi, di kolom ke-13 yang berisi *"Region"* kita akan mencari *region* dengan *string* yang berbeda. Dalam hal ini, ada *Central*, *West*, *East*, dan *South*.  
   
-  Karena kita ingin membandingkan *region* mana yang punya *profit* paling sedikit, maka di ti
+  Karena kita ingin membandingkan *region* mana yang punya *profit* paling sedikit, maka untuk setiap *array region*, kita tambahkan *profit* yang mereka dapatkan di kolom ke-21 yang merupakan kolom *profit*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxMzY2MjQ1MSwxODQ5MDQ1OTQ1LDIwOT
-Q4NTM1OTgsMTczNjc4MDYwMl19
+eyJoaXN0b3J5IjpbNTE0Njc2MiwxODQ5MDQ1OTQ1LDIwOTQ4NT
+M1OTgsMTczNjc4MDYwMl19
 -->
