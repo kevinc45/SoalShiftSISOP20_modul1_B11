@@ -36,7 +36,10 @@ END{
 }' Sample-Superstore.tsv | sort -g -k 1 | grep -o -P '(?<=[0-9.] ).*' | head -n 1)
 echo "$A"
 echo ""
-```
+``` AWK, masalahmu akan dapat terselesaikan!
+ 
+```bash
+#!bin/bash
 
 
 
@@ -152,5 +155,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5NDg1MzU5OCwxNzM2NzgwNjAyXX0=
+eyJoaXN0b3J5IjpbMzQxNDU5ODA1LDIwOTQ4NTM1OTgsMTczNj
+c4MDYwMl19
 -->
