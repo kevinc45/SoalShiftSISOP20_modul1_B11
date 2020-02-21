@@ -72,8 +72,14 @@ Bisa dong, Whits! Nih, kata Sasikala di situs [The Geek Stuff](https://www.thege
 
 Jadi, di kolom ke-13 yang berisi *"Region"* kita akan mencari *region* dengan *string* yang berbeda. Dalam hal ini, ada *Central*, *West*, *East*, dan *South*.  
   
-  Karena kita ingin membandingkan *region* mana yang punya *profit* paling sedikit, maka untuk setiap *array region*, kita tambahkan *profit* yang mereka dapatkan di kolom ke-21 yang merupakan kolom *profit*
+  Karena kita ingin membandingkan *region* mana yang punya *profit* paling sedikit, maka untuk setiap *array region*, kita tambahkan *profit* yang mereka dapatkan di kolom ke-21 yang merupakan kolom *profit*.
+
+```bash}
+	for (x in column){
+		print column[x] " " x}
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE0Njc2MiwxODQ5MDQ1OTQ1LDIwOTQ4NT
-M1OTgsMTczNjc4MDYwMl19
+eyJoaXN0b3J5IjpbMTQyOTU5NjYxNyw1MTQ2NzYyLDE4NDkwND
+U5NDUsMjA5NDg1MzU5OCwxNzM2NzgwNjAyXX0=
 -->
