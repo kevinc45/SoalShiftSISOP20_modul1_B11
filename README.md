@@ -89,8 +89,10 @@ Penggunaan
 ```bash
 sort -g -k 1
 ```
-digunakan untuk mengurutkan *output* dari 
+digunakan untuk mengurutkan *output* dari *script* yang kita jalankan.
+
+"Apa, tuh -g -k
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzcxODI3MDU3LDUxNDY3NjIsMTg0OTA0NT
-k0NSwyMDk0ODUzNTk4LDE3MzY3ODA2MDJdfQ==
+eyJoaXN0b3J5IjpbLTEwNzM1NjU5MDksNTE0Njc2MiwxODQ5MD
+Q1OTQ1LDIwOTQ4NTM1OTgsMTczNjc4MDYwMl19
 -->
