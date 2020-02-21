@@ -82,8 +82,15 @@ Jadi, di kolom ke-13 yang berisi *"Region"* kita akan mencari *region* dengan *s
 ```
 *"Pasti ini untuk nge-print hasilnya, kan?"*  
   
-Benar sekali, Whits! Dengan menuliskan *file* yang mau kita akses (*Sample-Superstore.csv*), kita memberikan per
+Benar sekali, Whits! Dengan menuliskan *file* (*Sample-Superstore.csv*), kita memberikan perintah kepada *script* Awk untuk mengakses *file* tersebut.  
+  
+  
+Penggunaan 
+```bash
+sort -g -k 1
+```
+digunakan untuk mengurutkan 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjEyMjg5Miw1MTQ2NzYyLDE4NDkwND
-U5NDUsMjA5NDg1MzU5OCwxNzM2NzgwNjAyXX0=
+eyJoaXN0b3J5IjpbLTIwMDgxNzE1ODgsNTE0Njc2MiwxODQ5MD
+Q1OTQ1LDIwOTQ4NTM1OTgsMTczNjc4MDYwMl19
 -->
