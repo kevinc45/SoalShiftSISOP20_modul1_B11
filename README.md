@@ -49,8 +49,8 @@ A=$(awk -F '	' '
 *"Loh, kok ada petik satu yang isinya kosongan?" tanya Whits.*
 
 Bukan kosongan, Whits. Petik satu tersebut berisi **TAB** sebagai *Field Separator*. 
-
-
+  
+  
 Dilansir dari jawaban Alaa Ali dalam salah satu
 jawaban di situs [askubuntu.com](https://askubuntu.com/a/342850), 
 >AWK adalah bahasa yang berguna untuk manipulasi file data, *text retrieval*, dan *processing*
@@ -95,7 +95,7 @@ digunakan untuk mengurutkan *output* dari *script* yang kita jalankan.
   
 Nah, pasti bingung, kan? Jadi, -g -k -1 merupakan *parameter* dari *sorting*-nya sendiri.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzUyNTIxMTMsLTEwNzM1NjU5MDksNT
-E0Njc2MiwxODQ5MDQ1OTQ1LDIwOTQ4NTM1OTgsMTczNjc4MDYw
-Ml19
+eyJoaXN0b3J5IjpbMTI1NDM0NDU1OSwtMTA3MzU2NTkwOSw1MT
+Q2NzYyLDE4NDkwNDU5NDUsMjA5NDg1MzU5OCwxNzM2NzgwNjAy
+XX0=
 -->
