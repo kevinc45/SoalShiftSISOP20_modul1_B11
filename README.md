@@ -23,6 +23,20 @@ laporan tersebut.
 ## Solution!
 Wah, Whits. Kamu kasihan sekali. Mari saya bantu~
 Dengan
+```bash
+#!/bin/bash
+echo -e "Region dengan profit paling sedikit:"
+A=$(awk -F '	' '{
+if ($13 != "Region")
+	column[$13] += $21	
+}
+END{
+	for (x in column){
+		print column[x] " " x}
+}' Sample-Superstore.tsv | sort -g -k 1 | grep -o -P '(?<=[0-9.] ).*' | head -n 1)
+echo "$A"
+echo ""
+```
 
 
 
