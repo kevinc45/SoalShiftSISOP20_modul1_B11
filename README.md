@@ -27,7 +27,9 @@ Dengan AWK, masalahmu akan dapat terselesaikan!
 **1A**
 >Tentukan wilayah bagian (region) mana yang memiliki keuntungan (profit) paling sedikit
 
-Hmm, tampaknya wilayah bagi
+Hmm, dengan data yang banyak, tentunya kalkulator akan kurang efektif, bukan?
+Jadi, bagaimana kalau kita menggunakan AWK dengan *script* seperti ini
+
 
 
 Synchronization is one of the biggest features of StackEdit. It enables you to synchronize any file in your workspace with other files stored in your **Google Drive**, your **Dropbox** and your **GitHub** accounts. This allows you to keep writing on other devices, collaborate with people you share the file with, integrate easily into your workflow... The synchronization mechanism takes place every minute in the background, downloading, merging, and uploading file modifications.
@@ -142,6 +144,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTYxNjgyODUsMjA5NDg1MzU5OCwxNz
+eyJoaXN0b3J5IjpbLTE4NTI3MTc3NzEsMjA5NDg1MzU5OCwxNz
 M2NzgwNjAyXX0=
 -->
