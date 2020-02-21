@@ -45,7 +45,7 @@ Yuk, bantu Whits menelusuri *script* ini satu persatu!
 ```bash
 A=$(awk -F '	' '
 ```
-Hmm, apa nih kok ada petik satu dengan 
+Hmm, apa nih kok ada petik satu yang isinya
 
 Synchronization is one of the biggest features of StackEdit. It enables you to synchronize any file in your workspace with other files stored in your **Google Drive**, your **Dropbox** and your **GitHub** accounts. This allows you to keep writing on other devices, collaborate with people you share the file with, integrate easily into your workflow... The synchronization mechanism takes place every minute in the background, downloading, merging, and uploading file modifications.
 
@@ -159,6 +159,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA3NTk3MywyMDk0ODUzNTk4LDE3MzY3OD
-A2MDJdfQ==
+eyJoaXN0b3J5IjpbLTE2ODIzMDkxODIsMjA5NDg1MzU5OCwxNz
+M2NzgwNjAyXX0=
 -->
