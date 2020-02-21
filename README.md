@@ -69,7 +69,9 @@ if ($13 != "Region")
 Bisa dong, Whits!  
 Nih, kata Sasikala di situs [The Geek Stuff](https://www.thegeekstuff.com/2010/03/awk-arrays-explained-with-5-practical-examples/),
 >Awk mendukung *associative array*. *Associative arrays* sama seperti *array* tradisional namun berisikan *strings* sebagai *index* alih-alih menggunakan angka. 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5OTUyNzIyNiwxODQ5MDQ1OTQ1LDIwOT
-Q4NTM1OTgsMTczNjc4MDYwMl19
+eyJoaXN0b3J5IjpbNDcxNjcyNTQsMTg0OTA0NTk0NSwyMDk0OD
+UzNTk4LDE3MzY3ODA2MDJdfQ==
 -->
