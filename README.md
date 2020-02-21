@@ -78,8 +78,10 @@ Jadi, di kolom ke-13 yang berisi *"Region"* kita akan mencari *region* dengan *s
 	for (x in column){
 		print column[x] " " x}
 ```
-
+*"Pasti ini untuk nge-print hasilnya, kan?"*  
+  
+Benar sekali, Whits! Sebenarnya, 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyOTU5NjYxNyw1MTQ2NzYyLDE4NDkwND
-U5NDUsMjA5NDg1MzU5OCwxNzM2NzgwNjAyXX0=
+eyJoaXN0b3J5IjpbNjYyNTY0OTc0LDUxNDY3NjIsMTg0OTA0NT
+k0NSwyMDk0ODUzNTk4LDE3MzY3ODA2MDJdfQ==
 -->
