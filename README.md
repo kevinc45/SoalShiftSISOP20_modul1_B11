@@ -75,13 +75,15 @@ Jadi, di kolom ke-13 yang berisi *"Region"* kita akan mencari *region* dengan *s
   Karena kita ingin membandingkan *region* mana yang punya *profit* paling sedikit, maka untuk setiap *array region*, kita tambahkan *profit* yang mereka dapatkan di kolom ke-21 yang merupakan kolom *profit*.
 
 ```bash}
+{
 	for (x in column){
 		print column[x] " " x}
+}' Sample-Superstore.tsv | sort -g -k 1 | grep -o -P '(?<=[0-9.] ).*' | head -n 1)
 ```
 *"Pasti ini untuk nge-print hasilnya, kan?"*  
   
-Benar sekali, Whits! Sebenarnya, 
+Benar sekali, Whits! DEn
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjYyNTY0OTc0LDUxNDY3NjIsMTg0OTA0NT
-k0NSwyMDk0ODUzNTk4LDE3MzY3ODA2MDJdfQ==
+eyJoaXN0b3J5IjpbLTIxMTE4OTUwNjYsNTE0Njc2MiwxODQ5MD
+Q1OTQ1LDIwOTQ4NTM1OTgsMTczNjc4MDYwMl19
 -->
