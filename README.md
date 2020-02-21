@@ -93,9 +93,12 @@ digunakan untuk mengurutkan *output* dari *script* yang kita jalankan.
 *"Apa, tuh, -g -k dan 1?"*
   
 Nah, pasti bingung, kan? Jadi, -g -k -1 merupakan *parameter* dari *sorting*-nya sendiri. Nah, kata Anwar dalam jawabannya di [askubuntu.com](https://askubuntu.com/a/840802),
-> -g berarti general-numeric-sort. Artinya, mengurutkan secara numerikal, mengkonversi *prefix* dari tiap baris menjadi *londouble-precision
+> -g berarti general-numeric-sort. Artinya, mengurutkan secara numerikal, mengkonversi *prefix* dari tiap baris menjadi *long double-precision floating point number*
+
+Sementara **-k -1** artinya,
+>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDM1MDkzMSwtMTA3MzU2NTkwOSw1MT
+eyJoaXN0b3J5IjpbMjA5OTU2MDE1MywtMTA3MzU2NTkwOSw1MT
 Q2NzYyLDE4NDkwNDU5NDUsMjA5NDg1MzU5OCwxNzM2NzgwNjAy
 XX0=
 -->
