@@ -50,6 +50,7 @@ A=$(awk -F '	' '
 
 Bukan kosongan, Whits. Petik satu tersebut berisi **TAB** sebagai *Field Separator*. 
 <br/>  
+
 <br/>  
 Dilansir dari jawaban Alaa Ali dalam salah satu
 jawaban di situs [askubuntu.com](https://askubuntu.com/a/342850), 
