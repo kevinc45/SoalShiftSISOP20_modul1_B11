@@ -101,12 +101,15 @@ Lalu, bagaimana dengan
 grep -o -P '(?<=[0-9.] ).*'
 ```
 Menurut situs [explainshell.com](https://explainshell.com/),
->-o = --only-matching  
+>-o, --only-matching  
 Print hanya bagian yang cocok dan tidak kosong dari baris yang sesuai, dengan masing-masing bagian terpisah dalam *output line*.  
 
->-P,
+>-P, --perl-regexp  
+Menafsirkan pola sebagai ekspresi reguler Perl (dikelompokkan dalam grup tertentu)
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNTAwNzkxNywtMTA3MzU2NTkwOSw1MT
-Q2NzYyLDE4NDkwNDU5NDUsMjA5NDg1MzU5OCwxNzM2NzgwNjAy
-XX0=
+eyJoaXN0b3J5IjpbNjQ0NDQ2MTA1LC0xMDczNTY1OTA5LDUxND
+Y3NjIsMTg0OTA0NTk0NSwyMDk0ODUzNTk4LDE3MzY3ODA2MDJd
+fQ==
 -->
