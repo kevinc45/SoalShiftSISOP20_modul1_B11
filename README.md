@@ -40,31 +40,18 @@ END{
 		print column[x] " " x}
 }' Sample-Superstore.tsv | sort -g -k 1 | grep -o -P '(?<=[0-9.] ).*' | head -n 1)
 ```
-<br/>  
-
-<br/>  
 
 Yuk, bantu Whits menelusuri *script* ini satu persatu!
-
-<br/>  
-
-<br/>  
 
 ```bash
 A=$(awk -F '	' '
 ```
-
 *"Loh, kok ada petik satu yang isinya kosongan?" tanya Whits.*
-<br/>  
-
-<br/>  
+ 
 Bukan kosongan, Whits. Petik satu tersebut berisi **TAB** sebagai *Field Separator*. 
-<br/>  
-
-<br/>  
+  
 Dilansir dari jawaban Alaa Ali dalam salah satu
 jawaban di situs [askubuntu.com](https://askubuntu.com/a/342850), 
-
 > AWK adalah bahasa yang berguna untuk manipulasi file data, *text retrieval*, dan *processing*
 
 Penulisan AWK diikuti dengan **-F** menandakan bahwa kamu ingin mengolah data terkait dengan menghilangkan *Field Separator* berupa **TAB**
@@ -109,7 +96,7 @@ Nah, pasti bingung, kan? Jadi, -g -k -1 merupakan *parameter* dari *sorting*-nya
   
 Menurut
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI0NDgzNTA1LC0xMDczNTY1OTA5LDUxND
+eyJoaXN0b3J5IjpbNDMzNTYxMTczLC0xMDczNTY1OTA5LDUxND
 Y3NjIsMTg0OTA0NTk0NSwyMDk0ODUzNTk4LDE3MzY3ODA2MDJd
 fQ==
 -->
