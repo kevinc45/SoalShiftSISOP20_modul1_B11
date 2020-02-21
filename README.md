@@ -100,8 +100,10 @@ Lalu, bagaimana dengan
 ```bash
 grep -o -P '(?<=[0-9.] ).*'
 ```
+Menurut situs [explainshell.com](https://explainshell.com/),
+>-o = --only
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0OTQ2NzExNSwtMTA3MzU2NTkwOSw1MT
+eyJoaXN0b3J5IjpbMjAyMjcxNzEzMSwtMTA3MzU2NTkwOSw1MT
 Q2NzYyLDE4NDkwNDU5NDUsMjA5NDg1MzU5OCwxNzM2NzgwNjAy
 XX0=
 -->
