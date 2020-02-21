@@ -205,10 +205,6 @@ Sementara **"\n"**, menandakan bahwa *output* dari **1B** dipisahkan dengan *\n*
 *Gunakan Bash Script
 
 ## Files
-
-## Solution!
-
-#!/bin/bash
 ```
 A=$(cat /dev/urandom | tr -dc A-Za-z0-9 | head -c 28 ; echo '')
 B=$(echo $1 | tr -dc A-Za-z)
@@ -218,101 +214,17 @@ x=$(('date +%H'))
 newB=$(echo $B | tr "${z:0:26}${y:0:26}" "${z:$x:26}${y:$x:26}")
 echo $A>$newB.txt
 ```
-yang variabel A, dia bikin inputan random berisi alphanumerik
-apa itu alphanumeric? 
-ialah  Dalam tata letak yang dirancang untuk pengguna bahasa Inggris, karakter Alphanumeric terdiri dari kumpulan 26 karakter alfabet gabungan, A hingga Z, dan 10 angka Arab, 0 hingga 9 urandom gitu. 
 
-pake > ae
-
-iku simbol e fleksibel
-
-opo lek gak deloken gotek e noel lho
-
-Kode kelompok e opo si noel
-
-
-wah lali
-
-takok samsu
-
-piye
-
-Tinggal 3c
-
-
-piye" wkwk
-
-piye soff
-
-Mbb Baru tangi + jumatan
-
-
-Pancet
-
-
-Tak ndengok ngone noel iki
-
-
-Jam 3 tak usahakan marii
-
-
-wes dihide gotek e noel wkwk
-
-lek uwes langsung upload di repo ku yo
-
-Yup
-
-
-Invite boy
-
-
-opo usernamemu
-
-Sofyanfyan
-
-
-sampun
-
-eh sof lanjutno readme.md buat sg nomer 2 bek 3 e poo
-
-aku kape kerjo iki
-
-lek wes zip en terus kirim ke email penguji e
-
-Nomer 2 gak ngerti ce
-
-
-Tak bacot ae gpp ta?
-
-
-Wkwk
-
-
-tak jelasno singkat yo
-
-Yup
-
+## Solution!
 
 #!/bin/bash
 
-A=$(cat /dev/urandom | tr -dc A-Za-z0-9 | head -c 28 ; echo '')
-B=$(echo $1 | tr -dc A-Za-z)
-y=abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz
-z=ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZ
-x=$((`date +%H`))
-newB=$(echo $B | tr "${z:0:26}${y:0:26}" "${z:$x:26}${y:$x:26}")
-echo $A>$newB.txt
-
 yang variabel A, dia bikin inputan random berisi alphanumerik
-
-fungsinya emang /dev/urandom gitu, cario di internet
-
+apa itu alphanumeric? 
+ialah  Dalam tata letak yang dirancang untuk pengguna bahasa Inggris, karakter Alphanumeric terdiri dari kumpulan 26 karakter alfabet gabungan, A hingga Z, dan 10 angka Arab, 0 hingga 9 jadi urandom gitu.
 B nya buat generate nama file berdasarkan inputan
-
 misal bash soal2.sh password
-
 nah "password" nya itu di passing pakai $1
-
 jadi untuk inputannya bisa diambil dengan $1
 
 nah y sama z itu fungsinya buat dictionary aja isinya a-z kecil sama a-z besar itu nantinya yang buat digeser di variabel "newB"
