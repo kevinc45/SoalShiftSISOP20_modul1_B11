@@ -118,7 +118,8 @@ Opsi -n setelah *head* menandakan bahwa *head* akan mencetak sejumlah *line(s)*.
   
 <br/>  
   
-**1B**
+**1B**  
+
 1B menggunakan *script* Awk yang hampir mirip dengan **1A**. Bedanya, Whits diminta untuk mencetak 2 negara bagian (*state*) dengan *profit* paling sedikit berdasarkan wilayah bagian (*region*) yang di dapat dari *output* **1A**.
 
 ```bash
@@ -186,9 +187,13 @@ split (b,y,"\n")
 ```
 merupakan fungsi untuk memisahkan *output* **1B** dalam variabel **b** menjadi 2 *value* yang berbeda.
 **y** di fungsi ini menandakan *value* **B** yang akan dimasukkan ke dalam *array* **y** dimulai dari **y[1]**.
-Sementara **"\n"**
+Sementara **"\n"**, menandakan bahwa *output* dari **1B** dipisahkan dengan *\n* atau *newline*.
+
+# Pembahasan Soal 2
+## Files
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2MjExMjcxLC0xMDczNTY1OTA5LDUxND
-Y3NjIsMTg0OTA0NTk0NSwyMDk0ODUzNTk4LDE3MzY3ODA2MDJd
-fQ==
+eyJoaXN0b3J5IjpbMTAzMzI0ODYxOSwtMTA3MzU2NTkwOSw1MT
+Q2NzYyLDE4NDkwNDU5NDUsMjA5NDg1MzU5OCwxNzM2NzgwNjAy
+XX0=
 -->
