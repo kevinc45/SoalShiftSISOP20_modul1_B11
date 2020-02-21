@@ -45,6 +45,7 @@ END{
 <br/>  
 
 Yuk, bantu Whits menelusuri *script* ini satu persatu!
+
 <br/>  
 
 <br/>  
@@ -108,7 +109,7 @@ Nah, pasti bingung, kan? Jadi, -g -k -1 merupakan *parameter* dari *sorting*-nya
   
 Menurut
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2NjE1MzkxLC0xMDczNTY1OTA5LDUxND
+eyJoaXN0b3J5IjpbNzI0NDgzNTA1LC0xMDczNTY1OTA5LDUxND
 Y3NjIsMTg0OTA0NTk0NSwyMDk0ODUzNTk4LDE3MzY3ODA2MDJd
 fQ==
 -->
