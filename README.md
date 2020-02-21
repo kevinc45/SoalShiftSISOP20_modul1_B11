@@ -64,8 +64,9 @@ if ($13 != "Region")
 	column[$13] += $21	
 }
 ```
-*Wah,
+*"Wah, kok bisa array-nya diisi String?"*
+Bisa dong
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5NTkzNTExMCwxODQ5MDQ1OTQ1LDIwOT
+eyJoaXN0b3J5IjpbMTI4NDA2ODA5OSwxODQ5MDQ1OTQ1LDIwOT
 Q4NTM1OTgsMTczNjc4MDYwMl19
 -->
