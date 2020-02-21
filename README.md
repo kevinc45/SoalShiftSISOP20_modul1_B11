@@ -208,11 +208,125 @@ Sementara **"\n"**, menandakan bahwa *output* dari **1B** dipisahkan dengan *\n*
 
 ## Solution!
 
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyOTc3NjAsNTYxMTA1Nzg2LC0xMDczNT
-Y1OTA5LDUxNDY3NjIsMTg0OTA0NTk0NSwyMDk0ODUzNTk4LDE3
-MzY3ODA2MDJdfQ==
--->
+#!/bin/bash
+```
+A=$(cat /dev/urandom | tr -dc A-Za-z0-9 | head -c 28 ; echo '')
+B=$(echo $1 | tr -dc A-Za-z)
+y=abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz
+z=ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZ
+x=$(('date +%H'))
+newB=$(echo $B | tr "${z:0:26}${y:0:26}" "${z:$x:26}${y:$x:26}")
+echo $A>$newB.txt
+```
+yang variabel A, dia bikin inputan random berisi alphanumerik
+apa itu alphanumeric? 
+ialah  Dalam tata letak yang dirancang untuk pengguna bahasa Inggris, karakter Alphanumeric terdiri dari kumpulan 26 karakter alfabet gabungan, A hingga Z, dan 10 angka Arab, 0 hingga 9 urandom gitu. 
+
+pake > ae
+
+iku simbol e fleksibel
+
+opo lek gak deloken gotek e noel lho
+
+Kode kelompok e opo si noel
+
+
+wah lali
+
+takok samsu
+
+piye
+
+Tinggal 3c
+
+
+piye" wkwk
+
+piye soff
+
+Mbb Baru tangi + jumatan
+
+
+Pancet
+
+
+Tak ndengok ngone noel iki
+
+
+Jam 3 tak usahakan marii
+
+
+wes dihide gotek e noel wkwk
+
+lek uwes langsung upload di repo ku yo
+
+Yup
+
+
+Invite boy
+
+
+opo usernamemu
+
+Sofyanfyan
+
+
+sampun
+
+eh sof lanjutno readme.md buat sg nomer 2 bek 3 e poo
+
+aku kape kerjo iki
+
+lek wes zip en terus kirim ke email penguji e
+
+Nomer 2 gak ngerti ce
+
+
+Tak bacot ae gpp ta?
+
+
+Wkwk
+
+
+tak jelasno singkat yo
+
+Yup
+
+
+#!/bin/bash
+
+A=$(cat /dev/urandom | tr -dc A-Za-z0-9 | head -c 28 ; echo '')
+B=$(echo $1 | tr -dc A-Za-z)
+y=abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz
+z=ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZ
+x=$((`date +%H`))
+newB=$(echo $B | tr "${z:0:26}${y:0:26}" "${z:$x:26}${y:$x:26}")
+echo $A>$newB.txt
+
+yang variabel A, dia bikin inputan random berisi alphanumerik
+
+fungsinya emang /dev/urandom gitu, cario di internet
+
+B nya buat generate nama file berdasarkan inputan
+
+misal bash soal2.sh password
+
+nah "password" nya itu di passing pakai $1
+
+jadi untuk inputannya bisa diambil dengan $1
+
+nah y sama z itu fungsinya buat dictionary aja isinya a-z kecil sama a-z besar itu nantinya yang buat digeser di variabel "newB"
+
+x itu variabel untuk dapet jam sekarang
+
+%H itu untuk dapet jam berapa sekarang formatnya 24 jam jadi value-nya dari 0-23
+
+newB itu untuk menggeser value variabel B sesuai dengan x
+
+setelah itu isinya dimasukkan ke txt lewat echo yang paling bawah
+
+
+
 
 #Soal Nomer 3 
 1 tahun telah berlalu sejak pencampakan hati Kusuma. Akankah sang pujaan hati
@@ -246,7 +360,7 @@ ekstensi ".log.bak". Hint : Gunakan wget.log untuk membuat location.log yang isi
 merupakan hasil dari grep "Location".
 *Gunakan Bash, Awk dan Crontab
 
-Nah Pertama-tama harus membuat bash terlebih dahulu untuk memasukkan gambar dari link "https://loremflickr.com/320/240/cat"
+##3a Nah Pertama-tama harus membuat bash terlebih dahulu untuk memasukkan gambar dari link "https://loremflickr.com/320/240/cat"
 ```
 for ((i=1; i<=28; i=i+1))
 do
@@ -256,18 +370,18 @@ done
 
 disini saya menggunakan looping dengan variabel i , proggram ini akan melakukkan looping sebanyak 28 kali dan sembari melakukan download gambar yang ada di link tersebut kemuadian saya memasnggil fungsi (-o) untuk output file biar bisa rename namanya kemudian (-a) bertujuan untuk append ke dalam wget.log 
 
-kemudian crontabnya sendiri berjalan setiap 8 jam dimulai dari jam 6.05 setiap hari kecuali hari Sabtu maka : 
+##3b kemudian crontabnya sendiri berjalan setiap 8 jam dimulai dari jam 6.05 setiap hari kecuali hari Sabtu maka : 
 ``` 
 5 6-23/8 * * 1-5,7 bash home/fyan/Sisop/nomer3.sh
 
 ```
-kemudian kita Karena gambar yang didownload dari link tersebut bersifat random, maka ada kemungkinan
+##3c kemudian kita Karena gambar yang didownload dari link tersebut bersifat random, maka ada kemungkinan
 gambar yang terdownload itu identik. Supaya gambar yang identik tidak dikira Kusuma
 sebagai spam, maka diperlukan sebuah script untuk memindahkan salah satu gambar
 identik. Setelah memilah gambar yang identik, maka dihasilkan gambar yang berbeda antara satu dengan yang lain
 
 Pada proggram ini membuat file Locaton.log yang isinya url tiap gambar yang telah  didownload
-proses selanjutnya menghitung apakah ada gambar yang lebih dari satu . apabila ada duplicate maka url nya sama dan akan di pindah ke direktori duplicate dan memindah kan gambar lainya ke direktori kenangan lalu proses selanjutnya membuat backup tiap file log
+proses selanjutnya menghitung apakah ada gambar yang lebih dari satu . apabila ada duplicate maka url location nya sama dan akan di pindah ke direktori duplicate dan memindah kan gambar lainya ke direktori kenangan lalu proses selanjutnya membuat backup tiap copyan file dengan list nama .log 
 ``` 
 #!/bin/bash
 cat wget.log | grep Location: > location.log
