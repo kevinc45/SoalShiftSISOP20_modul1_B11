@@ -101,9 +101,12 @@ Lalu, bagaimana dengan
 grep -o -P '(?<=[0-9.] ).*'
 ```
 Menurut situs [explainshell.com](https://explainshell.com/),
->-o = --only
+>-o = --only-matching  
+Print hanya bagian yang cocok dan tidak kosong dari baris yang sesuai, dengan masing-masing bagian terpisah dalam *output line*.  
+
+>-P,
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyMjcxNzEzMSwtMTA3MzU2NTkwOSw1MT
+eyJoaXN0b3J5IjpbLTIyNTAwNzkxNywtMTA3MzU2NTkwOSw1MT
 Q2NzYyLDE4NDkwNDU5NDUsMjA5NDg1MzU5OCwxNzM2NzgwNjAy
 XX0=
 -->
