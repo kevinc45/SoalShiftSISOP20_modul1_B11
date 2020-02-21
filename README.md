@@ -139,9 +139,16 @@ a="$A"
 ```  
 sebelum *Sample-Superstore.tsv*.
 
-*Script* **1B** menggunakan  *if* yang mirip dengan **1A**
+*Script* **1B** menggunakan *'if'* yang mirip dengan **1A**.  
+```bash
+{
+if ($11 != "State" && $13 == a)
+	column[$11] += $21	
+}
+```
+Seperti yang sudah Whits mengerti sebelumnya, **$11** berisikan *Strings* dari kolom *State*. Aga
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjgyMTgxMzIsLTEwNzM1NjU5MDksNT
+eyJoaXN0b3J5IjpbLTEyMTU2MTk4MDgsLTEwNzM1NjU5MDksNT
 E0Njc2MiwxODQ5MDQ1OTQ1LDIwOTQ4NTM1OTgsMTczNjc4MDYw
 Ml19
 -->
