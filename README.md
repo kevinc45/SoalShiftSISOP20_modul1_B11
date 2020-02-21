@@ -105,7 +105,9 @@ Menurut situs [explainshell.com](https://explainshell.com/),
 Print hanya bagian yang cocok dan tidak kosong dari baris yang sesuai, dengan masing-masing bagian terpisah dalam *output line*.  
 
 >-P, --perl-regexp  
-Menafsirkan pola sebagai ekspresi reguler Perl (dikelompokkan dalam grup tertentu)
+Menafsirkan pola sebagai ekspresi reguler Perl (dikelompokkan dalam grup tertentu)  
+  
+Sementara itu, *parameter* yang tertulis di dalamnya, digunakan untuk menghilangkan angka-angka yang berada di bagian depan *output line*.
 
 
 Terakhir,
@@ -207,7 +209,7 @@ Sementara **"\n"**, menandakan bahwa *output* dari **1B** dipisahkan dengan *\n*
 ## Solution!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTYxMTA1Nzg2LC0xMDczNTY1OTA5LDUxND
-Y3NjIsMTg0OTA0NTk0NSwyMDk0ODUzNTk4LDE3MzY3ODA2MDJd
-fQ==
+eyJoaXN0b3J5IjpbMTQyOTc3NjAsNTYxMTA1Nzg2LC0xMDczNT
+Y1OTA5LDUxNDY3NjIsMTg0OTA0NTk0NSwyMDk0ODUzNTk4LDE3
+MzY3ODA2MDJdfQ==
 -->
