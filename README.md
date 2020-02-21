@@ -184,9 +184,11 @@ Yap, kita menggunakan fungsi baru yang disebut *split*
 ```bash
 split (b,y,"\n")
 ```
-merupakan fungsi untuk memisahkan *output* **1B** dalam vari
+merupakan fungsi untuk memisahkan *output* **1B** dalam variabel **b** menjadi 2 *value* yang berbeda.
+**y** di fungsi ini menandakan *value* **B** yang akan dimasukkan ke dalam *array* **y** dimulai dari **y[1]**.
+Sementara **"\n"**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzOTc4MzM0OSwtMTA3MzU2NTkwOSw1MT
-Q2NzYyLDE4NDkwNDU5NDUsMjA5NDg1MzU5OCwxNzM2NzgwNjAy
-XX0=
+eyJoaXN0b3J5IjpbMTg2MjExMjcxLC0xMDczNTY1OTA5LDUxND
+Y3NjIsMTg0OTA0NTk0NSwyMDk0ODUzNTk4LDE3MzY3ODA2MDJd
+fQ==
 -->
