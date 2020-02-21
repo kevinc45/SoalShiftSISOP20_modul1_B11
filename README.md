@@ -91,11 +91,11 @@ sort -g -k 1
 ```
 digunakan untuk mengurutkan *output* dari *script* yang kita jalankan.
 
-*"Apa, tuh -g -k dan 1?"*
+*"Apa, tuh, -g -k dan 1?"*
   
-Nah, pasti bingung, kan? Jadi, -g -k -1 merupakan 
+Nah, pasti bingung, kan? Jadi, -g -k -1 merupakan *parameter* dari *sorting*-nya sendiri.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxMjM0MDQ1MSwtMTA3MzU2NTkwOSw1MT
-Q2NzYyLDE4NDkwNDU5NDUsMjA5NDg1MzU5OCwxNzM2NzgwNjAy
-XX0=
+eyJoaXN0b3J5IjpbLTE5MzUyNTIxMTMsLTEwNzM1NjU5MDksNT
+E0Njc2MiwxODQ5MDQ1OTQ1LDIwOTQ4NTM1OTgsMTczNjc4MDYw
+Ml19
 -->
