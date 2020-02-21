@@ -56,8 +56,16 @@ jawaban di situs [askubuntu.com](https://askubuntu.com/a/342850),
 >AWK adalah bahasa yang berguna untuk manipulasi file data, *text retrieval*, dan *processing*
 
 Penulisan AWK diikuti dengan **-F** menandakan bahwa kamu ingin mengolah data terkait dengan menghilangkan *Field Separator* berupa **TAB**
-
+  
+Lanjut,
+```bash
+{
+if ($13 != "Region")
+	column[$13] += $21	
+}
+```
+*Wah,
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzMTcyNzQ0OSwxODQ5MDQ1OTQ1LDIwOT
+eyJoaXN0b3J5IjpbMjA5NTkzNTExMCwxODQ5MDQ1OTQ1LDIwOT
 Q4NTM1OTgsMTczNjc4MDYwMl19
 -->
