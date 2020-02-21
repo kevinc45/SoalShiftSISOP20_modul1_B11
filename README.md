@@ -151,9 +151,21 @@ Seperti yang sudah Whits mengerti sebelumnya, **$11** berisikan *Strings* dari k
 $13 == a
 ```  
   
-Dalam *output*-nya, **1B** butuh untuk mencetak 2 negara bag
+Dalam *output*-nya, **1B** butuh untuk mencetak 2 negara bagian (*state*) dengan *profit* terkecil. Nah, makanya kita menggunakan
+```bash
+head -n 2
+```
+di akhir *script*.  
+
+<br/>
+  
+<br/>  
+  
+**1C**  
+
+Persoalan di **1C** bisa jadi persoalan yang paling *tricky* 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0MDY5NTkxNiwtMTA3MzU2NTkwOSw1MT
+eyJoaXN0b3J5IjpbLTM0NjQyNTAyOCwtMTA3MzU2NTkwOSw1MT
 Q2NzYyLDE4NDkwNDU5NDUsMjA5NDg1MzU5OCwxNzM2NzgwNjAy
 XX0=
 -->
