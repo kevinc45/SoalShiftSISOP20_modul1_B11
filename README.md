@@ -47,14 +47,17 @@ A=$(awk -F '	' '
 ```
 
 *"Loh, kok ada petik satu yang isinya kosongan?" tanya Whits.*
+<br/>  
 
+<br/>  
 Bukan kosongan, Whits. Petik satu tersebut berisi **TAB** sebagai *Field Separator*. 
 <br/>  
 
 <br/>  
 Dilansir dari jawaban Alaa Ali dalam salah satu
 jawaban di situs [askubuntu.com](https://askubuntu.com/a/342850), 
->AWK adalah bahasa yang berguna untuk manipulasi file data, *text retrieval*, dan *processing*
+
+> AWK adalah bahasa yang berguna untuk manipulasi file data, *text retrieval*, dan *processing*
 
 Penulisan AWK diikuti dengan **-F** menandakan bahwa kamu ingin mengolah data terkait dengan menghilangkan *Field Separator* berupa **TAB**
   
@@ -95,8 +98,10 @@ digunakan untuk mengurutkan *output* dari *script* yang kita jalankan.
 *"Apa, tuh, -g -k dan 1?"*
   
 Nah, pasti bingung, kan? Jadi, -g -k -1 merupakan *parameter* dari *sorting*-nya sendiri.
+  
+Menurut
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTEzOTM3MDMsLTEwNzM1NjU5MDksNT
+eyJoaXN0b3J5IjpbLTE1OTgyMDk0MjMsLTEwNzM1NjU5MDksNT
 E0Njc2MiwxODQ5MDQ1OTQ1LDIwOTQ4NTM1OTgsMTczNjc4MDYw
 Ml19
 -->
