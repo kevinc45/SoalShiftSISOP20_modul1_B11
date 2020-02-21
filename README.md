@@ -91,8 +91,9 @@ sort -g -k 1
 ```
 digunakan untuk mengurutkan *output* dari *script* yang kita jalankan.
 
-"Apa, tuh -g -k
+"Apa, tuh -g -k 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzM1NjU5MDksNTE0Njc2MiwxODQ5MD
-Q1OTQ1LDIwOTQ4NTM1OTgsMTczNjc4MDYwMl19
+eyJoaXN0b3J5IjpbLTc4NjgyOTIwNywtMTA3MzU2NTkwOSw1MT
+Q2NzYyLDE4NDkwNDU5NDUsMjA5NDg1MzU5OCwxNzM2NzgwNjAy
+XX0=
 -->
