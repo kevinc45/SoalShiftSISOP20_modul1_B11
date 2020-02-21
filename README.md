@@ -53,9 +53,9 @@ Bukan kosongan, Whits. Petik satu tersebut berisi **TAB** sebagai *Field Separat
 
 Dilansir dari jawaban Alaa Ali dalam salah satu
 jawaban di situs [askubuntu.com](https://askubuntu.com/a/342850), 
+>AWK adalah bahasa yang berguna untuk manipulasi file data, *text retrieval*, dan *processing*
 
-
-Penulisan AWK diikuti dengan **-F** menandakan bahwa 
+Penulisan AWK diikuti dengan **-F** menandakan bahwa kamu ingin mengolah data terkait dengan men 
 
 Synchronization is one of the biggest features of StackEdit. It enables you to synchronize any file in your workspace with other files stored in your **Google Drive**, your **Dropbox** and your **GitHub** accounts. This allows you to keep writing on other devices, collaborate with people you share the file with, integrate easily into your workflow... The synchronization mechanism takes place every minute in the background, downloading, merging, and uploading file modifications.
 
@@ -169,6 +169,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjUzNzAxOTUsMjA5NDg1MzU5OCwxNz
-M2NzgwNjAyXX0=
+eyJoaXN0b3J5IjpbMTQ3ODY5MDQyMiwyMDk0ODUzNTk4LDE3Mz
+Y3ODA2MDJdfQ==
 -->
