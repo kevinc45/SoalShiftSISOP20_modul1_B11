@@ -108,8 +108,9 @@ Print hanya bagian yang cocok dan tidak kosong dari baris yang sesuai, dengan ma
 Menafsirkan pola sebagai ekspresi reguler Perl (dikelompokkan dalam grup tertentu)
 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ0NDQ2MTA1LC0xMDczNTY1OTA5LDUxND
-Y3NjIsMTg0OTA0NTk0NSwyMDk0ODUzNTk4LDE3MzY3ODA2MDJd
-fQ==
+eyJoaXN0b3J5IjpbLTE0MjM5NjUzMDUsLTEwNzM1NjU5MDksNT
+E0Njc2MiwxODQ5MDQ1OTQ1LDIwOTQ4NTM1OTgsMTczNjc4MDYw
+Ml19
 -->
