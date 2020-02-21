@@ -30,7 +30,22 @@ Dengan AWK, masalahmu akan dapat terselesaikan!
 Hmm, dengan data yang banyak, tentunya kalkulator akan kurang efektif, bukan?
 Jadi, bagaimana kalau kita menggunakan AWK dengan *script* seperti ini
 
+```bash
+#!/bin/bash
 
+echo -e "Region dengan profit paling sedikit:"
+A=$(awk -F '	' '{
+if ($13 != "Region")
+	column[$13] += $21	
+}
+END{
+	for (x in column){
+		print column[x] " " x}
+}' Sample-Superstore.tsv | sort -g -k 1 | grep -o -P '(?<=[0-9.] ).*' | head -n 1)
+```
+Yuk, bantu Whits menelusuri *script* ini satu persatu!
+
+```bash
 
 Synchronization is one of the biggest features of StackEdit. It enables you to synchronize any file in your workspace with other files stored in your **Google Drive**, your **Dropbox** and your **GitHub** accounts. This allows you to keep writing on other devices, collaborate with people you share the file with, integrate easily into your workflow... The synchronization mechanism takes place every minute in the background, downloading, merging, and uploading file modifications.
 
@@ -144,6 +159,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTI3MTc3NzEsMjA5NDg1MzU5OCwxNz
-M2NzgwNjAyXX0=
+eyJoaXN0b3J5IjpbMTMzOTI0NDk1NiwyMDk0ODUzNTk4LDE3Mz
+Y3ODA2MDJdfQ==
 -->
