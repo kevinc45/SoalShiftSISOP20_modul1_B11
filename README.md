@@ -22,13 +22,13 @@ laporan tersebut.
 
 ## Solution!
 Wah, Whits. Kamu kasihan sekali. Mari saya bantu~  
-Dengan AWK, masalahmu akan dapat terselesaikan!
+Dengan Awk, masalahmu akan dapat terselesaikan!
 
 **1A**
 >Tentukan wilayah bagian (region) mana yang memiliki keuntungan (profit) paling sedikit
 
 Hmm, dengan data yang banyak, tentunya kalkulator akan kurang efektif, bukan?  
-Jadi, bagaimana kalau kita menggunakan AWK dengan *script* seperti ini
+Jadi, bagaimana kalau kita menggunakan Awk dengan *script* seperti ini
 
 ```bash
 A=$(awk -F '	' '{
@@ -52,9 +52,9 @@ Bukan kosongan, Whits. Petik satu tersebut berisi **TAB** sebagai *Field Separat
   
 Dilansir dari jawaban Alaa Ali dalam salah satu
 jawaban di situs [askubuntu.com](https://askubuntu.com/a/342850), 
-> AWK adalah bahasa yang berguna untuk manipulasi file data, *text retrieval*, dan *processing*
+> Awk adalah bahasa yang berguna untuk manipulasi file data, *text retrieval*, dan *processing*
 
-Penulisan AWK diikuti dengan **-F** menandakan bahwa kamu ingin mengolah data terkait dengan menghilangkan *Field Separator* berupa **TAB**
+Penulisan Awk diikuti dengan **-F** menandakan bahwa kamu ingin mengolah data terkait dengan menghilangkan *Field Separator* berupa **TAB**
   
   
 Lanjut,
@@ -112,16 +112,16 @@ Terakhir,
 ```bash
 head -n 1
 ```
-Opsi -n setelah *head* menandakan bahwa *head* akan mencetak sejumlah *line(s)*. Sementara itu, angka 1 menandakan banyaknya *line head* yang dicetak. Karena diminta hanya 1 negara bagian (*region*), maka digunakan angka 1.
+Opsi -n setelah *head* menandakan bahwa *head* akan mencetak sejumlah *line(s)*. Sementara itu, angka 1 menandakan banyaknya *line head* yang dicetak. Karena diminta hanya 1 wilayah bagian (*region*), maka digunakan angka 1.
 
 <br/>
   
 <br/>  
   
 **1B**
-1B menggunakan 
+1B menggunakan *script* Awk yang hampir mirip dengan **1A**. Bedanya, Whits diminta untuk mencetak 2 negara bagian (
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4MzY1OTEzMywtMTA3MzU2NTkwOSw1MT
-Q2NzYyLDE4NDkwNDU5NDUsMjA5NDg1MzU5OCwxNzM2NzgwNjAy
-XX0=
+eyJoaXN0b3J5IjpbLTE1MzYwOTQ3MTYsLTEwNzM1NjU5MDksNT
+E0Njc2MiwxODQ5MDQ1OTQ1LDIwOTQ4NTM1OTgsMTczNjc4MDYw
+Ml19
 -->
