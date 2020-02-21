@@ -213,3 +213,85 @@ eyJoaXN0b3J5IjpbMTQyOTc3NjAsNTYxMTA1Nzg2LC0xMDczNT
 Y1OTA5LDUxNDY3NjIsMTg0OTA0NTk0NSwyMDk0ODUzNTk4LDE3
 MzY3ODA2MDJdfQ==
 -->
+
+#Soal Nomer 3 
+1 tahun telah berlalu sejak pencampakan hati Kusuma. Akankah sang pujaan hati
+kembali ke naungan Kusuma? Memang tiada maaf bagi Elen. Tapi apa daya hati yang
+sudah hancur, Kusuma masih terguncang akan sikap Elen. Melihat kesedihan Kusuma,
+kalian mencoba menghibur Kusuma dengan mengirimkan gambar kucing. [a] Maka dari
+itu, kalian mencoba membuat script untuk mendownload 28 gambar dari
+"https://loremflickr.com/320/240/cat" menggunakan command wget dan menyimpan file
+dengan nama "pdkt_kusuma_NO" (contoh: pdkt_kusuma_1, pdkt_kusuma_2,
+pdkt_kusuma_3) serta jangan lupa untuk menyimpan log messages wget kedalam
+sebuah file "wget.log". Karena kalian gak suka ribet, kalian membuat penjadwalan untuk
+
+menjalankan script download gambar tersebut. Namun, script download tersebut hanya
+berjalan[b] setiap 8 jam dimulai dari jam 6.05 setiap hari kecuali hari Sabtu Karena
+gambar yang didownload dari link tersebut bersifat random, maka ada kemungkinan
+gambar yang terdownload itu identik. Supaya gambar yang identik tidak dikira Kusuma
+sebagai spam, maka diperlukan sebuah script untuk memindahkan salah satu gambar
+identik. Setelah memilah gambar yang identik, maka dihasilkan gambar yang berbeda
+antara satu dengan yang lain. Gambar yang berbeda tersebut, akan kalian kirim ke
+Kusuma supaya hatinya kembali ceria. Setelah semua gambar telah dikirim, kalian akan
+selalu menghibur Kusuma, jadi gambar yang telah terkirim tadi akan kalian simpan
+kedalam folder /kenangan dan kalian bisa mendownload gambar baru lagi. [c] Maka dari
+itu buatlah sebuah script untuk mengidentifikasi gambar yang identik dari keseluruhan
+gambar yang terdownload tadi. Bila terindikasi sebagai gambar yang identik, maka
+sisakan 1 gambar dan pindahkan sisa file identik tersebut ke dalam folder ./duplicate
+dengan format filename "duplicate_nomor" (contoh : duplicate_200, duplicate_201).
+Setelah itu lakukan pemindahan semua gambar yang tersisa kedalam folder ./kenangan
+dengan format filename "kenangan_nomor" (contoh: kenangan_252, kenangan_253).
+Setelah tidak ada gambar di current directory, maka lakukan backup seluruh log menjadi
+ekstensi ".log.bak". Hint : Gunakan wget.log untuk membuat location.log yang isinya
+merupakan hasil dari grep "Location".
+*Gunakan Bash, Awk dan Crontab
+
+Nah Pertama-tama harus membuat bash terlebih dahulu untuk memasukkan gambar dari link "https://loremflickr.com/320/240/cat"
+```
+for ((i=1; i<=28; i=i+1))
+do
+wget -O pdkt_kusuma_$i https://loremflickr.com/320/240/cat -a wget.log
+done
+```
+
+disini saya menggunakan looping dengan variabel i , proggram ini akan melakukkan looping sebanyak 28 kali dan sembari melakukan download gambar yang ada di link tersebut kemuadian saya memasnggil fungsi (-o) untuk output file biar bisa rename namanya kemudian (-a) bertujuan untuk append ke dalam wget.log 
+
+kemudian crontabnya sendiri berjalan setiap 8 jam dimulai dari jam 6.05 setiap hari kecuali hari Sabtu maka : 
+``` 
+5 6-23/8 * * 1-5,7 bash home/fyan/Sisop/nomer3.sh
+
+```
+kemudian kita Karena gambar yang didownload dari link tersebut bersifat random, maka ada kemungkinan
+gambar yang terdownload itu identik. Supaya gambar yang identik tidak dikira Kusuma
+sebagai spam, maka diperlukan sebuah script untuk memindahkan salah satu gambar
+identik. Setelah memilah gambar yang identik, maka dihasilkan gambar yang berbeda antara satu dengan yang lain
+
+Pada proggram ini membuat file Locaton.log yang isinya url tiap gambar yang telah  didownload
+proses selanjutnya menghitung apakah ada gambar yang lebih dari satu . apabila ada duplicate maka url nya sama dan akan di pindah ke direktori duplicate dan memindah kan gambar lainya ke direktori kenangan lalu proses selanjutnya membuat backup tiap file log
+``` 
+#!/bin/bash
+cat wget.log | grep Location: > location.log
+
+mkdir duplicate
+mkdir kenangan
+
+awk '{ i++
+        print i ";" $2
+}' location.log | awk -F ';' '{
+counter[$2]++
+if (counter[$2] > 1) {
+ aws = "mv pdkt_kusuma_"$1 " duplicate/duplicate_"$1
+}
+
+else {
+ aws = "mv pdkt_kusuma_"$1 " kenangan/kenangan_"$1
+}
+system(aws)
+
+}'
+ls *.log | awk '{
+        aws  = "cp " $0 " $0 ".bak"
+        system(aws)
+}'
+``` 
+
