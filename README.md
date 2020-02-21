@@ -40,8 +40,13 @@ END{
 		print column[x] " " x}
 }' Sample-Superstore.tsv | sort -g -k 1 | grep -o -P '(?<=[0-9.] ).*' | head -n 1)
 ```
-Yuk, bantu Whits menelusuri *script* ini satu persatu!
+<br/>  
 
+<br/>  
+Yuk, bantu Whits menelusuri *script* ini satu persatu!
+<br/>  
+
+<br/>  
 ```bash
 A=$(awk -F '	' '
 ```
@@ -101,7 +106,7 @@ Nah, pasti bingung, kan? Jadi, -g -k -1 merupakan *parameter* dari *sorting*-nya
   
 Menurut
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTgyMDk0MjMsLTEwNzM1NjU5MDksNT
-E0Njc2MiwxODQ5MDQ1OTQ1LDIwOTQ4NTM1OTgsMTczNjc4MDYw
-Ml19
+eyJoaXN0b3J5IjpbLTY0Nzg1OTY1MywtMTA3MzU2NTkwOSw1MT
+Q2NzYyLDE4NDkwNDU5NDUsMjA5NDg1MzU5OCwxNzM2NzgwNjAy
+XX0=
 -->
