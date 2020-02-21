@@ -22,25 +22,12 @@ laporan tersebut.
 
 ## Solution!
 Wah, Whits. Kamu kasihan sekali. Mari saya bantu~
-Dengan
-```bash
-#!/bin/bash
-echo -e "Region dengan profit paling sedikit:"
-A=$(awk -F '	' '{
-if ($13 != "Region")
-	column[$13] += $21	
-}
-END{
-	for (x in column){
-		print column[x] " " x}
-}' Sample-Superstore.tsv | sort -g -k 1 | grep -o -P '(?<=[0-9.] ).*' | head -n 1)
-echo "$A"
-echo ""
-``` AWK, masalahmu akan dapat terselesaikan!
- 
-```bash
-#!bin/bash
+Dengan AWK, masalahmu akan dapat terselesaikan!
 
+**1A**
+>Tentukan wilayah bagian (region) mana yang memiliki keuntungan (profit) paling sedikit
+
+Hmm, tampaknya wilayah bagi
 
 
 Synchronization is one of the biggest features of StackEdit. It enables you to synchronize any file in your workspace with other files stored in your **Google Drive**, your **Dropbox** and your **GitHub** accounts. This allows you to keep writing on other devices, collaborate with people you share the file with, integrate easily into your workflow... The synchronization mechanism takes place every minute in the background, downloading, merging, and uploading file modifications.
@@ -155,6 +142,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQxNDU5ODA1LDIwOTQ4NTM1OTgsMTczNj
-c4MDYwMl19
+eyJoaXN0b3J5IjpbLTEwMTYxNjgyODUsMjA5NDg1MzU5OCwxNz
+M2NzgwNjAyXX0=
 -->
