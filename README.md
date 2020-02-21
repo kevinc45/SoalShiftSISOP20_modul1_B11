@@ -163,9 +163,14 @@ di akhir *script*.
   
 **1C**  
 
-Persoalan di **1C** bisa jadi persoalan yang paling *tricky* 
+Persoalan di **1C** bisa jadi persoalan yang paling *tricky* diantara ketiga persoalan nomor 1. Karena *output* **1B** yang ada 2, kita tidak dapat asal menggunakan 'sama dengan' ( == ) seperti yang kita gunakan di **1B**  
+  
+Coba cek dulu nih, *script*-nya:
+```bash
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0NjQyNTAyOCwtMTA3MzU2NTkwOSw1MT
+eyJoaXN0b3J5IjpbMTM4MDM1MjI2MCwtMTA3MzU2NTkwOSw1MT
 Q2NzYyLDE4NDkwNDU5NDUsMjA5NDg1MzU5OCwxNzM2NzgwNjAy
 XX0=
 -->
