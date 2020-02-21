@@ -6,22 +6,22 @@
 # Pembahasan Soal 1
 >Whits adalah seorang mahasiswa teknik informatika. Dia mendapatkan tugas praktikum
 untuk membuat laporan berdasarkan data yang ada pada file “Sample-Superstore.tsv”.
-Namun dia tidak dapat menyelesaikan tugas tersebut. Laporan yang diminta berupa :
+Namun dia tidak dapat menyelesaikan tugas tersebut. Laporan yang diminta berupa :  
 a. Tentukan wilayah bagian (region) mana yang memiliki keuntungan (profit) paling
-sedikit
+sedikit  
 b. Tampilkan 2 negara bagian (state) yang memiliki keuntungan (profit) paling
-sedikit berdasarkan hasil poin a
+sedikit berdasarkan hasil poin a  
 c. Tampilkan 10 produk (product name) yang memiliki keuntungan (profit) paling
-sedikit berdasarkan 2 negara bagian (state) hasil poin b
+sedikit berdasarkan 2 negara bagian (state) hasil poin b  
 Whits memohon kepada kalian yang sudah jago mengolah data untuk mengerjakan
-laporan tersebut.
+laporan tersebut.  
 *Gunakan Awk dan Command pendukung
 
 ## Files
 
 
 ## Solution!
-Wah, Whits. Kamu kasihan sekali. Mari saya bantu~
+Wah, Whits. Kamu kasihan sekali. Mari saya bantu~  
 Dengan AWK, masalahmu akan dapat terselesaikan!
 
 **1A**
@@ -57,6 +57,6 @@ jawaban di situs [askubuntu.com](https://askubuntu.com/a/342850),
 
 Penulisan AWK diikuti dengan **-F** menandakan bahwa kamu ingin mengolah data terkait dengan menghilangkan *Field Separator* berupa **TAB**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0OTA0NTk0NSwyMDk0ODUzNTk4LDE3Mz
-Y3ODA2MDJdfQ==
+eyJoaXN0b3J5IjpbNzYzMDg2OTA1LDE4NDkwNDU5NDUsMjA5ND
+g1MzU5OCwxNzM2NzgwNjAyXX0=
 -->
