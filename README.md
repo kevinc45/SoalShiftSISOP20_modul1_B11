@@ -64,9 +64,11 @@ if ($13 != "Region")
 	column[$13] += $21	
 }
 ```
-*"Wah, kok bisa array-nya diisi String?"*
-Bisa dong
+*"Wah, kok bisa array-nya diisi String?"*  
+
+Bisa dong, Whits!  
+Nih, kata Sasikala di situs The Geek Stuff,
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4NDA2ODA5OSwxODQ5MDQ1OTQ1LDIwOT
-Q4NTM1OTgsMTczNjc4MDYwMl19
+eyJoaXN0b3J5IjpbLTIwNjAzNzU2MjgsMTg0OTA0NTk0NSwyMD
+k0ODUzNTk4LDE3MzY3ODA2MDJdfQ==
 -->
