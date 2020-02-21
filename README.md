@@ -167,10 +167,26 @@ Persoalan di **1C** bisa jadi persoalan yang paling *tricky* diantara ketiga per
   
 Coba cek dulu nih, *script*-nya:
 ```bash
+C=$(awk -F '	' '{
 
+split(b,y,"\n")
+
+if ($17 != "Product Name" && ($11 == y[1] || $11 == y[2]))
+	column[$17] += $21
+}
+END{
+	for (x in column){
+		print column[x] " " x}
+}' b="$B" Sample-Superstore.tsv | sort -g -k 1 | grep -o -P '(?<=[0-9.] ).*' | head -n 10)
+```  
+  
+Yap, kita menggunakan fungsi baru yang disebut *split*
+```bash
+split (b,y,"\n")
 ```
+merupakan fungsi untuk memisahkan *output* **1B** dalam vari
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4MDM1MjI2MCwtMTA3MzU2NTkwOSw1MT
+eyJoaXN0b3J5IjpbMTYzOTc4MzM0OSwtMTA3MzU2NTkwOSw1MT
 Q2NzYyLDE4NDkwNDU5NDUsMjA5NDg1MzU5OCwxNzM2NzgwNjAy
 XX0=
 -->
