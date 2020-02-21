@@ -146,9 +146,14 @@ if ($11 != "State" && $13 == a)
 	column[$11] += $21	
 }
 ```
-Seperti yang sudah Whits mengerti sebelumnya, **$11** berisikan *Strings* dari kolom *State*. Aga
+Seperti yang sudah Whits mengerti sebelumnya, **$11** berisikan *Strings* dari kolom *State*. Agar efektif, kita cukup menggunakan *output* dari **1A** saja dalam kondisi *'if*. Oleh karena itu, kita menggunakan
+```bash
+$13 == a
+```  
+  
+Dalam *output*-nya, **1B** butuh untuk mencetak 2 negara bag
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTU2MTk4MDgsLTEwNzM1NjU5MDksNT
-E0Njc2MiwxODQ5MDQ1OTQ1LDIwOTQ4NTM1OTgsMTczNjc4MDYw
-Ml19
+eyJoaXN0b3J5IjpbMjE0MDY5NTkxNiwtMTA3MzU2NTkwOSw1MT
+Q2NzYyLDE4NDkwNDU5NDUsMjA5NDg1MzU5OCwxNzM2NzgwNjAy
+XX0=
 -->
