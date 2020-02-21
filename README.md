@@ -27,7 +27,7 @@ Dengan AWK, masalahmu akan dapat terselesaikan!
 **1A**
 >Tentukan wilayah bagian (region) mana yang memiliki keuntungan (profit) paling sedikit
 
-Hmm, dengan data yang banyak, tentunya kalkulator akan kurang efektif, bukan?
+Hmm, dengan data yang banyak, tentunya kalkulator akan kurang efektif, bukan?  
 Jadi, bagaimana kalau kita menggunakan AWK dengan *script* seperti ini
 
 ```bash
@@ -56,7 +56,8 @@ jawaban di situs [askubuntu.com](https://askubuntu.com/a/342850),
 >AWK adalah bahasa yang berguna untuk manipulasi file data, *text retrieval*, dan *processing*
 
 Penulisan AWK diikuti dengan **-F** menandakan bahwa kamu ingin mengolah data terkait dengan menghilangkan *Field Separator* berupa **TAB**
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzYzMDg2OTA1LDE4NDkwNDU5NDUsMjA5ND
-g1MzU5OCwxNzM2NzgwNjAyXX0=
+eyJoaXN0b3J5IjpbLTgzMTcyNzQ0OSwxODQ5MDQ1OTQ1LDIwOT
+Q4NTM1OTgsMTczNjc4MDYwMl19
 -->
