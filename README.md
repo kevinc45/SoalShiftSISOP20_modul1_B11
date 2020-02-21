@@ -96,7 +96,7 @@ digunakan untuk mengurutkan *output* dari *script* yang kita jalankan.
   
 Nah, pasti bingung, kan? Jadi, -g -k -1 merupakan *parameter* dari *sorting*-nya sendiri.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2MTYxOTE1NywtMTA3MzU2NTkwOSw1MT
-Q2NzYyLDE4NDkwNDU5NDUsMjA5NDg1MzU5OCwxNzM2NzgwNjAy
-XX0=
+eyJoaXN0b3J5IjpbLTE2MTEzOTM3MDMsLTEwNzM1NjU5MDksNT
+E0Njc2MiwxODQ5MDQ1OTQ1LDIwOTQ4NTM1OTgsMTczNjc4MDYw
+Ml19
 -->
