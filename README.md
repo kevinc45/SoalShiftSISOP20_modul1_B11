@@ -240,7 +240,7 @@ setelah itu isinya dimasukkan ke txt lewat echo yang paling bawah
 
 
 
-#Soal Nomer 3 
+# Pembahasan Soal Nomer 3 
 ```1 tahun telah berlalu sejak pencampakan hati Kusuma. Akankah sang pujaan hati
 kembali ke naungan Kusuma? Memang tiada maaf bagi Elen. Tapi apa daya hati yang
 sudah hancur, Kusuma masih terguncang akan sikap Elen. Melihat kesedihan Kusuma,
@@ -273,7 +273,8 @@ merupakan hasil dari grep "Location".
 *Gunakan Bash, Awk dan Crontab
 ```
 
-##3a Nah Pertama-tama harus membuat bash terlebih dahulu untuk memasukkan gambar dari link "https://loremflickr.com/320/240/cat"
+## 3a 
+Nah Pertama-tama harus membuat bash terlebih dahulu untuk memasukkan gambar dari link "https://loremflickr.com/320/240/cat"
 ```
 for ((i=1; i<=28; i=i+1))
 do
@@ -283,12 +284,14 @@ done
 
 disini saya menggunakan looping dengan variabel i , proggram ini akan melakukkan looping sebanyak 28 kali dan sembari melakukan download gambar yang ada di link tersebut kemuadian saya memasnggil fungsi (-o) untuk output file biar bisa rename namanya kemudian (-a) bertujuan untuk append ke dalam wget.log 
 
-##3b kemudian crontabnya sendiri berjalan setiap 8 jam dimulai dari jam 6.05 setiap hari kecuali hari Sabtu maka : 
+## 3b
+kemudian crontabnya sendiri berjalan setiap 8 jam dimulai dari jam 6.05 setiap hari kecuali hari Sabtu maka : 
 ``` 
 5 6-23/8 * * 1-5,7 bash home/fyan/Sisop/nomer3.sh
 
 ```
-##3c kemudian kita Karena gambar yang didownload dari link tersebut bersifat random, maka ada kemungkinan
+## 3c 
+kemudian kita Karena gambar yang didownload dari link tersebut bersifat random, maka ada kemungkinan
 gambar yang terdownload itu identik. Supaya gambar yang identik tidak dikira Kusuma
 sebagai spam, maka diperlukan sebuah script untuk memindahkan salah satu gambar
 identik. Setelah memilah gambar yang identik, maka dihasilkan gambar yang berbeda antara satu dengan yang lain
