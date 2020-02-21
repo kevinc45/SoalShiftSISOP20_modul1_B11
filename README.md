@@ -194,26 +194,20 @@ Sementara **"\n"**, menandakan bahwa *output* dari **1B** dipisahkan dengan *\n*
 >
 >Whits memikirkan sebuah ide namun dia meminta bantuan kalian kembali agar ide tersebut cepat diselesaikan. Idenya adalah kalian  
 >
->(A) membuat sebuah script bash yang dapat menghasilkan password secara acak sebanyak 28 karakter yang terdapat huruf besar, huruf kecil, dan angka.  
+>( A ) membuat sebuah script bash yang dapat menghasilkan password secara acak sebanyak 28 karakter yang terdapat huruf besar, huruf kecil, dan angka.    
+> ( B ) Password acak tersebut disimpan pada file berekstensi .txt dengan nama berdasarkan argumen yang diinputkan dan HANYA berupa alphabet.  
+> ( C ) Kemudian supaya file .txt tersebut tidak mudah diketahui maka nama filenya akan dienkripsi dengan menggunakan konversi huruf (string manipulation) yang disesuaikan dengan jam(0-23) dibuatnya file tersebut dengan program terpisah dengan (misal: password.txt dibuat pada jam 01.28 maka namanya berubah menjadi qbttxpse.txt dengan perintah ‘bash soal2_enkripsi.sh password.txt’. Karena p adalah huruf ke 16 dan file dibuat pada jam 1 maka 16+1=17 dan huruf ke 17 adalah q dan begitu pula seterusnya. Apabila melebihi z, akan kembali ke a, contoh: huruf w dengan jam 5.28, maka akan menjadi huruf b.)  
+>( D ) jangan lupa untuk membuat dekripsinya supaya nama file bisa kembali.  
   
-> (B) Password acak tersebut disimpan pada file berekstensi .txt dengan nama berdasarkan argumen yang diinputkan dan HANYA berupa alphabet.
-
-(c) Kemudian supaya file .txt tersebut tidak mudah diketahui maka nama filenya akan di
-enkripsi dengan menggunakan konversi huruf (string manipulation) yang disesuaikan
-dengan jam(0-23) dibuatnya file tersebut dengan program terpisah dengan (misal:
-password.txt dibuat pada jam 01.28 maka namanya berubah menjadi qbttxpse.txt
-dengan perintah ‘bash soal2_enkripsi.sh password.txt’. Karena p adalah huruf ke 16 dan
-file dibuat pada jam 1 maka 16+1=17 dan huruf ke 17 adalah q dan begitu pula
-seterusnya. Apabila melebihi z, akan kembali ke a, contoh: huruf w dengan jam 5.28,
-maka akan menjadi huruf b.) dan (d) jangan lupa untuk membuat dekripsinya supaya
-nama file bisa kembali.
-HINT: enkripsi yang digunakan adalah caesar cipher.
+>HINT: enkripsi yang digunakan adalah caesar cipher.
 *Gunakan Bash Script
+
 ## Files
+
 ## Solution!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1MTU1MDYxMSwtMTA3MzU2NTkwOSw1MT
-Q2NzYyLDE4NDkwNDU5NDUsMjA5NDg1MzU5OCwxNzM2NzgwNjAy
-XX0=
+eyJoaXN0b3J5IjpbNTYxMTA1Nzg2LC0xMDczNTY1OTA5LDUxND
+Y3NjIsMTg0OTA0NTk0NSwyMDk0ODUzNTk4LDE3MzY3ODA2MDJd
+fQ==
 -->
