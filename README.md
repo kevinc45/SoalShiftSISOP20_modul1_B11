@@ -108,9 +108,13 @@ Print hanya bagian yang cocok dan tidak kosong dari baris yang sesuai, dengan ma
 Menafsirkan pola sebagai ekspresi reguler Perl (dikelompokkan dalam grup tertentu)
 
 
-
+Terakhir,
+```bash
+head -n 1
+```
+Opsi -n setelah *head* menandakan bahwa *head* akan mencetak sejumlah *line(s)*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjM5NjUzMDUsLTEwNzM1NjU5MDksNT
-E0Njc2MiwxODQ5MDQ1OTQ1LDIwOTQ4NTM1OTgsMTczNjc4MDYw
-Ml19
+eyJoaXN0b3J5IjpbMTU1Mjk3MzQxNCwtMTA3MzU2NTkwOSw1MT
+Q2NzYyLDE4NDkwNDU5NDUsMjA5NDg1MzU5OCwxNzM2NzgwNjAy
+XX0=
 -->
