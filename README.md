@@ -112,9 +112,16 @@ Terakhir,
 ```bash
 head -n 1
 ```
-Opsi -n setelah *head* menandakan bahwa *head* akan mencetak sejumlah *line(s)*
+Opsi -n setelah *head* menandakan bahwa *head* akan mencetak sejumlah *line(s)*. Sementara itu, angka 1 menandakan banyaknya *line head* yang dicetak. Karena diminta hanya 1 negara bagian (*region*), maka digunakan angka 1.
+
+<br/>
+  
+<br/>  
+  
+**1B**
+1B menggunakan 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1Mjk3MzQxNCwtMTA3MzU2NTkwOSw1MT
+eyJoaXN0b3J5IjpbLTk4MzY1OTEzMywtMTA3MzU2NTkwOSw1MT
 Q2NzYyLDE4NDkwNDU5NDUsMjA5NDg1MzU5OCwxNzM2NzgwNjAy
 XX0=
 -->
