@@ -67,8 +67,9 @@ if ($13 != "Region")
 *"Wah, kok bisa array-nya diisi String?"*  
 
 Bisa dong, Whits!  
-Nih, kata Sasikala di situs The Geek Stuff,
+Nih, kata Sasikala di situs [The Geek Stuff](https://www.thegeekstuff.com/2010/03/awk-arrays-explained-with-5-practical-examples/),
+>Awk mendukung *associative array*. *ass* 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjAzNzU2MjgsMTg0OTA0NTk0NSwyMD
-k0ODUzNTk4LDE3MzY3ODA2MDJdfQ==
+eyJoaXN0b3J5IjpbMTY3NTQ2Mzk5NywxODQ5MDQ1OTQ1LDIwOT
+Q4NTM1OTgsMTczNjc4MDYwMl19
 -->
