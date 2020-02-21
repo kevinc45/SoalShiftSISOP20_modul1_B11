@@ -137,9 +137,11 @@ Hal tersebut terlihat melalui adanya
 ```bash
 a="$A"
 ```  
-setelah E
+sebelum *Sample-Superstore.tsv*.
+
+*Script* **1B** menggunakan  *if* yang mirip dengan **1A**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5NDg0NDgxNiwtMTA3MzU2NTkwOSw1MT
-Q2NzYyLDE4NDkwNDU5NDUsMjA5NDg1MzU5OCwxNzM2NzgwNjAy
-XX0=
+eyJoaXN0b3J5IjpbLTEwNjgyMTgxMzIsLTEwNzM1NjU5MDksNT
+E0Njc2MiwxODQ5MDQ1OTQ1LDIwOTQ4NTM1OTgsMTczNjc4MDYw
+Ml19
 -->
