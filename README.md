@@ -70,8 +70,8 @@ if ($13 != "Region")
 Bisa dong, Whits! Nih, kata Sasikala di situs [The Geek Stuff](https://www.thegeekstuff.com/2010/03/awk-arrays-explained-with-5-practical-examples/),
 >Awk mendukung *associative array*. *Associative arrays* sama seperti *array* tradisional namun berisikan *strings* sebagai *index* alih-alih menggunakan angka. 
 
-Jadi, di kolom 13 yang berisi *"Region"*
+Jadi, di kolom 13 yang berisi *"Region"* kita akan mencari *region* dengan *string* yang berbeda. Dalam hal ini, ada Central, West 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxMTkwNjkzMCwxODQ5MDQ1OTQ1LDIwOT
-Q4NTM1OTgsMTczNjc4MDYwMl19
+eyJoaXN0b3J5IjpbLTE0Nzg1MDQ5MzcsMTg0OTA0NTk0NSwyMD
+k0ODUzNTk4LDE3MzY3ODA2MDJdfQ==
 -->
