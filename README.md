@@ -43,10 +43,12 @@ END{
 <br/>  
 
 <br/>  
+
 Yuk, bantu Whits menelusuri *script* ini satu persatu!
 <br/>  
 
 <br/>  
+
 ```bash
 A=$(awk -F '	' '
 ```
@@ -106,7 +108,7 @@ Nah, pasti bingung, kan? Jadi, -g -k -1 merupakan *parameter* dari *sorting*-nya
   
 Menurut
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0Nzg1OTY1MywtMTA3MzU2NTkwOSw1MT
-Q2NzYyLDE4NDkwNDU5NDUsMjA5NDg1MzU5OCwxNzM2NzgwNjAy
-XX0=
+eyJoaXN0b3J5IjpbMTc2NjE1MzkxLC0xMDczNTY1OTA5LDUxND
+Y3NjIsMTg0OTA0NTk0NSwyMDk0ODUzNTk4LDE3MzY3ODA2MDJd
+fQ==
 -->
