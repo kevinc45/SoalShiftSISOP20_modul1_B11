@@ -57,6 +57,7 @@ jawaban di situs [askubuntu.com](https://askubuntu.com/a/342850),
 
 Penulisan AWK diikuti dengan **-F** menandakan bahwa kamu ingin mengolah data terkait dengan menghilangkan *Field Separator* berupa **TAB**
   
+  
 Lanjut,
 ```bash
 {
@@ -66,12 +67,11 @@ if ($13 != "Region")
 ```
 *"Wah, kok bisa array-nya diisi String?"*  
 
-Bisa dong, Whits!  
-Nih, kata Sasikala di situs [The Geek Stuff](https://www.thegeekstuff.com/2010/03/awk-arrays-explained-with-5-practical-examples/),
+Bisa dong, Whits! Nih, kata Sasikala di situs [The Geek Stuff](https://www.thegeekstuff.com/2010/03/awk-arrays-explained-with-5-practical-examples/),
 >Awk mendukung *associative array*. *Associative arrays* sama seperti *array* tradisional namun berisikan *strings* sebagai *index* alih-alih menggunakan angka. 
 
-
+Jadi, di kolom 13 yang berisi *"Region"*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDcxNjcyNTQsMTg0OTA0NTk0NSwyMDk0OD
-UzNTk4LDE3MzY3ODA2MDJdfQ==
+eyJoaXN0b3J5IjpbMTQxMTkwNjkzMCwxODQ5MDQ1OTQ1LDIwOT
+Q4NTM1OTgsMTczNjc4MDYwMl19
 -->
