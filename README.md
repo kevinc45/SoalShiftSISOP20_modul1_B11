@@ -131,10 +131,15 @@ END{
 		print column[x] " " x}
 }' a="$A" Sample-Superstore.tsv | sort -g -k 1 | grep -o -P '(?<=[0-9.] ).*' | head -n 2)
 ```
-Mirip, kan?
-Karena *output* dari **1A** telah dimasukkan ke dalam variabel A, maka kita butuhuntuk menggunakannya kembali 
+Mirip, kan?  
+Karena *output* dari **1A** telah dimasukkan ke dalam variabel A dan merupakan nilai dalam *bash*, maka kita butuh untuk memanggilnya dalam bentuk Awk sebelum dapat digunakan kembali.  
+Hal tersebut terlihat melalui adanya
+```bash
+a="$A"
+```  
+setelah E
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTI5NTcwODksLTEwNzM1NjU5MDksNT
-E0Njc2MiwxODQ5MDQ1OTQ1LDIwOTQ4NTM1OTgsMTczNjc4MDYw
-Ml19
+eyJoaXN0b3J5IjpbMTM5NDg0NDgxNiwtMTA3MzU2NTkwOSw1MT
+Q2NzYyLDE4NDkwNDU5NDUsMjA5NDg1MzU5OCwxNzM2NzgwNjAy
+XX0=
 -->
