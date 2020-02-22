@@ -287,7 +287,7 @@ disini saya menggunakan looping dengan variabel i , proggram ini akan melakukkan
 ## 3b
 kemudian crontabnya sendiri berjalan setiap 8 jam dimulai dari jam 6.05 setiap hari kecuali hari Sabtu maka : 
 ``` 
-5 6-23/8 * * 1-5,7 bash home/fyan/Sisop/nomer3.sh
+5 6-23/8 * * 1-5,7 bash home/fyan/Sisop/soal3.sh
 
 ```
 ## 3c 
