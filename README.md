@@ -237,8 +237,17 @@ newB itu untuk menggeser value variabel B sesuai dengan x
 
 setelah itu isinya dimasukkan ke txt lewat echo yang paling bawah
 
+Untuk mendekripsi balik, dapat digunakan
+```bash
+#!/bin/bash
 
-
+B=$(stat -c %y $1 | grep -oP '(?<=[^ ] ).*(?=:.*:)')
+y=abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz
+z=ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZ
+newB=$(echo $1 | grep -oP '.*(?=\.txt)' | tr ${z:$B:26}${y:$B:26} ${z:0:26}${y:0:26})
+cp $1 $newB".txt"
+```  
+Fungsi **Stat** digunakan untuk mendapatkan status   
 
 # Pembahasan Soal Nomer 3 
 ```1 tahun telah berlalu sejak pencampakan hati Kusuma. Akankah sang pujaan hati
@@ -326,5 +335,5 @@ ls *.log | awk '{
 ``` 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3NTk5NzczNF19
+eyJoaXN0b3J5IjpbMTI3NDU2NDI2MF19
 -->
