@@ -249,7 +249,9 @@ cp $1 $newB".txt"
 ```  
 Fungsi **Stat** digunakan untuk mendapatkan informasi mengenai file, dan **-c** digunakan untuk meng-*customize* output yang dikeluarkan.
 
-Karena kita ingin mengambil inputan berupa nama file dari input yang diberika 
+Karena kita ingin mengambil inputan berupa nama file dari input yang diberikan dalam *command line* maka digunakan **$1** sementara sisanya berlaku untuk mengembalikan enkripsi *Caesar's Cipher* ke dalam bentuk semula.
+
+**cp** digunakan untuk me-*rename* file berdasarkan *output* dari fungsi **newB** 
 
 # Pembahasan Soal Nomer 3 
 ```1 tahun telah berlalu sejak pencampakan hati Kusuma. Akankah sang pujaan hati
@@ -337,5 +339,5 @@ ls *.log | awk '{
 ``` 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxOTE0Nzk2NV19
+eyJoaXN0b3J5IjpbLTgwOTM0MTM2OF19
 -->
