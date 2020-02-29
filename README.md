@@ -247,7 +247,9 @@ z=ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZ
 newB=$(echo $1 | grep -oP '.*(?=\.txt)' | tr ${z:$B:26}${y:$B:26} ${z:0:26}${y:0:26})
 cp $1 $newB".txt"
 ```  
-Fungsi **Stat** digunakan untuk mendapatkan status   
+Fungsi **Stat** digunakan untuk mendapatkan informasi mengenai file, dan **-c** digunakan untuk meng-*customize* output yang dikeluarkan.
+
+Karena kita ingin mengambil inputan berupa nama file dari input yang diberika 
 
 # Pembahasan Soal Nomer 3 
 ```1 tahun telah berlalu sejak pencampakan hati Kusuma. Akankah sang pujaan hati
@@ -335,5 +337,5 @@ ls *.log | awk '{
 ``` 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3NDU2NDI2MF19
+eyJoaXN0b3J5IjpbMTQxOTE0Nzk2NV19
 -->
